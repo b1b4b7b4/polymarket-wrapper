@@ -1,0 +1,20 @@
+{
+  "name": "polymarketbuilder",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/ws": "^8.18.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@polymarket/builder-relayer-client": "^0.0.6",
+    "@polymarket/builder-signing-sdk": "^0.0.8",
+    "@polymarket/clob-client": "^4.22.8",
+    "dotenv": "^17.2.3",
+    "viem": "^2.38.6",
+    "ws": "^8.18.3"
+  }
+}
